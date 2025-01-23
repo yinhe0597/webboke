@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>软件下载</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="editor.html">写文章</a></li>
+        <li><a href="downloads.html" class="active">软件下载</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="downloads-container">
+      <h1>软件下载中心</h1>
+      
+      <!-- 搜索栏 -->
+      <div class="search-bar mb-4">
+        <input type="text" id="search-input" class="form-control" placeholder="搜索软件...">
+      </div>
+
+      <!-- 下载列表 -->
+      <div id="download-list">
+        <div class="download-item">
+          <div class="download-info">
+            <h3>Visual Studio Code</h3>
+            <p>版本：1.85.1 | 大小：85MB</p>
+            <p>微软开发的轻量级代码编辑器</p>
+          </div>
+          <button class="download-button">下载</button>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h3>Node.js</h3>
+            <p>版本：20.10.0 | 大小：25MB</p>
+            <p>JavaScript运行时环境</p>
+          </div>
+          <button class="download-button">下载</button>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h3>Postman</h3>
+            <p>版本：10.18.10 | 大小：150MB</p>
+            <p>API开发测试工具</p>
+          </div>
+          <button class="download-button">下载</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-envelope"></i></a>
+      </div>
+      <p>© 2025 我的博客</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="downloads.js"></script>
+</body>
+</html>

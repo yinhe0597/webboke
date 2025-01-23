@@ -1,0 +1,17 @@
+{
+  "name": "my-blog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@simonwep/pickr": "^1.8.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

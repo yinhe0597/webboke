@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的博客</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#posts">文章</a></li>
+        <li><a href="#contact">联系</a></li>
+        <li id="admin-panel" style="display: none;">
+          <a href="#" id="edit-content">编辑内容</a>
+          <span id="visitor-count"></span>
+        </li>
+        <li><a href="login.html" id="login-link">登录</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>欢迎来到我的博客</h1>
+      <img src="profile.jpg" alt="个人照片">
+      <p>我是一名热爱编程和摄影的开发者...</p>
+    </section>
+
+    <section id="posts">
+      <h2>最新文章</h2>
+      <div id="article-container"></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#" class="github"><i class="fab fa-github"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="weibo"><i class="fab fa-weibo"></i></a>
+      </div>
+      <p>联系方式: email@example.com</p>
+      <button id="theme-toggle">切换主题</button>
+    </div>
+    <button id="back-to-top" title="回到顶部">&uarr;</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

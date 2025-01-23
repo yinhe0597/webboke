@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>登录</h2>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">密码:</label>
+        <input type="password" id="password" required>
+      </div>
+      <button type="submit">登录</button>
+    </form>
+    <p>游客模式请直接<a href="index.html">访问博客</a></p>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>
